@@ -8,8 +8,6 @@ const Kahoot = require("kahoot.js-updated")
 //Prefix
 const Prefix = "*"
 
-//Dotenv
-require('dotenv').config()
 
 //Noblox
 const noblox = require("noblox.js")
@@ -368,16 +366,6 @@ client.on("message", message => {
     }
 })
 
-var http = require("http")
 
-
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!")
-
-
-    res.end()
-  })
-  .listen(8080)
 //Login
-client.login(process.env.TOKEN)
+client.login(OTI4MzgzNDUwMTY2MjA2NTU3.YdX-dw.TdE2JDeZpd9gXzqKLWS4HH9kgWA)
